@@ -1,0 +1,51 @@
+.news {
+  background-color: #191919;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-info {
+  font-size: 12px;
+  color: #fef6ed;
+  margin-bottom: 2rem;
+}
+
+.news h2 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.news-text {
+  text-align: center;
+}
+
+.news input {
+  font-size: 1.7rem;
+  padding: 0.7rem;
+  margin-right: 0.7rem;
+  border: none;
+  outline: none;
+}
+
+.news button {
+  font-size: 1.7rem;
+  padding: 0.7rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .news input {
+    margin-right: 0;
+    text-align: center;
+  }
+}
